@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LogInActivity"
+    android:background="@color/gray">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="130dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@mipmap/logo_foreground" />
+
+    <TextView
+        android:layout_width="410dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="420dp"
+        android:fontFamily="@font/montserrat"
+        android:text="Добрый день!"
+        android:textAlignment="center"
+        android:textSize="32sp"
+        app:layout_constraintTop_toTopOf="parent">
+    </TextView>
+
+    <EditText
+        android:id="@+id/loginstring"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="490dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:hint="Логин">
+    </EditText>
+
+    <EditText
+        android:id="@+id/passwordstring"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="540dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:hint="Пароль">
+    </EditText>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="600dp"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:backgroundTint="@color/black"
+        android:text="Войти"
+        android:onClick="sendAnswer"
+        >
+    </Button>
+
+    <TextView
+        android:layout_width="410dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="660dp"
+        android:fontFamily="@font/montserrat"
+        android:text="Регистрация"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        app:layout_constraintTop_toTopOf="parent">
+    </TextView>
+
+    <TextView
+        android:layout_width="410dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="690dp"
+        android:fontFamily="@font/montserrat"
+        android:text="Забыли пароль?"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        app:layout_constraintTop_toTopOf="parent">
+    </TextView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
