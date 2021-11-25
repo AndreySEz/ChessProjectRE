@@ -1,4 +1,4 @@
-package com.example.chessproject.ui.notifications
+package com.example.chessproject.ui.profile
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -17,7 +17,7 @@ class ProfileFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        val root: View = inflater.inflate(R.layout.fragment_profile, container, false)
+        val root = inflater.inflate(R.layout.fragment_profile, container, false)
         return root
     }
 }

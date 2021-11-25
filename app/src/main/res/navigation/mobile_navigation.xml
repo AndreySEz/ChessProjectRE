@@ -13,7 +13,7 @@
 
     <fragment
         android:id="@+id/navigation_book"
-        android:name="com.example.chessproject.ui.game.BookFragment"
+        android:name="com.example.chessproject.ui.book.BookFragment"
         android:label="Book"
         tools:layout="@layout/fragment_book" />
 

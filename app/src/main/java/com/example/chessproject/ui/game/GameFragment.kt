@@ -17,7 +17,7 @@ class GameFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        val root: View = inflater.inflate(R.layout.fragment_game, container, false)
+        val root= inflater.inflate(R.layout.fragment_game, container, false)
         return root
     }
 }

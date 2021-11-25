@@ -1,4 +1,4 @@
-package com.example.chessproject.ui.home
+package com.example.chessproject.ui.book
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -18,7 +18,7 @@ class BookFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        val root: View = inflater.inflate(R.layout.fragment_book, container, false)
+        val root = inflater.inflate(R.layout.fragment_book, container, false)
         return root
     }
 }
